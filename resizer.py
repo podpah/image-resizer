@@ -3,7 +3,7 @@ import argparse
 from PIL import Image, ImageOps
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-p", "--path", type=str, help="Path to the folder with images")
+parser.add_argument("-p", "--path", type=str, required=True, help="Path to the folder with images")
 parser.add_argument("-f", "--force", action="store_true", help="Override original images")
 args = parser.parse_args()
 override_images = args.force
