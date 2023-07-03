@@ -9,3 +9,7 @@ python resizer.py -p Downloads/images
 ## Flags
 * -f forces the change. Basically, instead of creating a duplicate in the folder, it overrides the current image
 * -p allows you to select the path for the folder where the images are
+
+## Example 
+![Image of process](readmeimg.jpg)
+The last step of filling the background was done by me as an example, but the expansion of the image with whitespace was done by the code.
