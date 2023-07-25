@@ -13,3 +13,6 @@ python resizer.py -p Downloads/images
 ## Example 
 ![Image of process](readmeimg.jpg)
 The last step of filling the background was done by me as an example, but the expansion of the image with whitespace was done by the code.
+
+## Dependencies
+- Pillow
